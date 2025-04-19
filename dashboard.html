@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة التحكم - مكتبة دوقلاس</title>
+</head>
+<body>
+  <h1>أهلاً بك في لوحة التحكم</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="pdf" accept=".pdf"><br><br>
+    <button type="submit">رفع الكتاب</button>
+  </form>
+
+  <h3>الكتب الحالية:</h3>
+  <ul>
+    {% for file in files %}
+      <li><a href="/library/{{ file }}" target="_blank">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <br><a href="/logout">تسجيل الخروج</a>
+</body>
+</html>
