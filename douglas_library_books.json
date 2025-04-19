@@ -1,0 +1,23 @@
+[
+    {
+        "title": "مقدمة في الفلسفة",
+        "filename": "philosophy_intro.pdf",
+        "category": "فلسفة",
+        "language": "عربي",
+        "cover": "covers/philosophy_intro.jpg"
+    },
+    {
+        "title": "مبادئ الهندسة الكهربائية",
+        "filename": "electrical_basics.pdf",
+        "category": "هندسة",
+        "language": "عربي",
+        "cover": "covers/electrical_basics.jpg"
+    },
+    {
+        "title": "The Art of Logic",
+        "filename": "logic_art.pdf",
+        "category": "Logic",
+        "language": "English",
+        "cover": "covers/logic_art.jpg"
+    }
+]
